@@ -37,8 +37,24 @@ Komponen utama:
 
 
 ## How to Run
-1. **Clone repo**  
+1. Pastikan Anda berada di direktori proyek.  
+2. Instal dependencies:
    ```bash
-   git clone https://github.com/username/repo.git
-   cd repo
-2. 
+   pip install -r requirements.txt
+3. Jalankan server Flask langsung:
+   ```bash
+   python run.py
+
+### Project Structure
+```text
+repo/
+├── app.py                  # Flask app + PCAImageCompressor class
+├── run.py                  # Setup dan start server
+├── requirements.txt        # Daftar library Python
+├── templates/
+│   └── index.html          # Halaman utama dengan area upload & preview
+├── static/
+│   ├── style.css           # Styling antarmuka
+│   └── script.js           # Logika drag-&-drop, fetch API, slider
+└── temp/                   # Direktori sementara untuk penyimpanan JPEG
+```
