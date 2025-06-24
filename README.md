@@ -48,13 +48,13 @@ Komponen utama:
 ### Project Structure
 ```text
 repo/
-├── app.py                  # Flask app + PCAImageCompressor class
-├── run.py                  # Setup dan start server
-├── requirements.txt        # Daftar library Python
+├── app.py                  
+├── run.py                  
+├── requirements.txt        
 ├── templates/
-│   └── index.html          # Halaman utama dengan area upload & preview
+│   └── index.html          
 ├── static/
-│   ├── style.css           # Styling antarmuka
-│   └── script.js           # Logika drag-&-drop, fetch API, slider
-└── temp/                   # Direktori sementara untuk penyimpanan JPEG
+│   ├── style.css           
+│   └── script.js           
+└── temp/                   
 ```
